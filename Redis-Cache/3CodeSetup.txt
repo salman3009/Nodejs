@@ -1,0 +1,4 @@
+Setup Redis:
+https://github.com/dmajkic/redis/downloads
+==============================================
+
