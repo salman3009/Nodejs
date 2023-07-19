@@ -1,0 +1,31 @@
+Create two api using expressjs framework:
+
+1.registration api with post method with need to receive following data 
+       {
+        firstName:"akash",
+        age:23,
+        email:"akash@gmail.com",
+        password:12345
+       }
+       Note:please store above data globally in app.js file so that we can do verification during login process
+
+2.login api with post method and it should return matching response otherwise through the error.
+          {
+            email:"akash@gmail.com",
+            password:12345
+          }
+          success response:
+          {
+            "message": "user is identified ",
+             "user": {
+                      firstName:"akash",
+                      age:23,
+                      email:"akash@gmail.com",
+                       password:12345
+       }
+          }
+          error response:
+          {
+            "message":"no match found"
+          }
+

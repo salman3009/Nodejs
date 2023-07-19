@@ -1,0 +1,12 @@
+Write a get and post method in nodejs using http package and do the followings 
+
+1.Get the user details such as name,age,phone,city,address using post man 
+2.Store this details inside the txt file using fs package .
+3.Write the get method and bring that file to frontend to display the result 
+3.please do the following validation before saving to file 
+   name - must be required 
+   age - must be greater then 18 
+   phone - required 
+   city - required 
+   address - required 
+4.if any validation error happens send the 400 error code alone with particular field error message.

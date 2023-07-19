@@ -1,0 +1,14 @@
+Create a schema for user
+{
+    userName:'' -->it should be required,minlength:[5,""],maxlength:[50,""] 
+    email:''-->it should be reuired,unique:true,
+    password:''-->it should be required,minlength:5,maxlength:20
+}
+1.registration - post method
+//store the valid data inside the database 
+2.login  - post method
+//check email and password if matches send the response "successfully login" otherwise "invalid credentials"
+const result = find({email:req.body.email,password:req.body.password});
+if(result && result.length>0){
+
+}

@@ -1,0 +1,22 @@
+File upload:
+//hard disk 
+=============================================================
+Assignment:
+<input type="file" name="uploadFile" multiple/>
+
+const file = req.files.uploadFile;
+
+for(let i-0;i<file.length;i++){
+      const uploadPath = __dirname + "/uploads/"+ file[i].name;
+
+        uploadedFile.mv(uploadPath,(err)=>{
+            if(err){
+                res.send("failed");
+            }
+            else{
+                res.send("successfully uploaded");
+            }
+        })   
+}
+==============================================
+CSRF - Cross-Site Request Forgery 

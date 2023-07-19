@@ -1,0 +1,34 @@
+The main of using nodejs is to develop web application:
+example:flipkart,irctc.
+Flipkart login:
+email:hello@gmail.com 
+password:12345
+server - something that is running 24*7 
+example - http-server 
+
+backend work:
+listen to the request 
+and respone it back
+
+while sending respone to frontend 
+//json - javascript-object notation
+//html file 
+
+http methods:
+1.get 
+2.post 
+3.delete
+4.patch
+
+format:
+1.url 
+2.header 
+3.body 
+
+======================
+postman tools 
+//It is a tool to verify the backend api is working perfectly or not 
+API 
+//application programming interface 
+============================
+

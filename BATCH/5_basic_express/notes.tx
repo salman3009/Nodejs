@@ -1,0 +1,27 @@
+Expressjs
+//It is a framework for Nodejs 
+//It consists lot of built in function and make easier to develop web application.
+//It helps to create routing
+//It helps to create middleware 
+//It helps to create tunnel like request.
+other packages available inside the expressjs 
+//express-handlebars
+//express-rate-limit 
+//express-fileupload
+//express-session 
+
+Any api:
+CRUD
+//create 
+//read 
+//update 
+//delete 
+
+//////////////////////////
+To create package.json file we need to run below command:
+cmd:npm init 
+To install any third party package 
+cmd:npm i package_name 
+example: npm i express 
+================================
+

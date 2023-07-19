@@ -1,0 +1,31 @@
+Database: credonodejs
+collectionName: employee
+
+employee:
+firstName
+age
+salary
+status
+
+example:
+json:
+{
+    "firstName": "akash",
+    "agae": 23,
+    "status": true,
+    "salary": 34000
+}
+
+mongoose - ODM - Object Data Modelling 
+Nodejs -- expressjs-- mongoose --- mongodb
+==========================================
+PostMan:
+url:http://localhost:3000
+method:POST 
+body:
+{
+    "firstName": "akash",
+    "agae": 23,
+    "salary": 34000
+}
+=====================================

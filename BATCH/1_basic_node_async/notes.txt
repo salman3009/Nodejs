@@ -1,0 +1,70 @@
+Basic Foundation of javascript:
+1.variable
+2.Datatypes 
+3.Array 
+4.Object 
+5.function 
+6.promise 
+7.async and await 
+8.import and export 
+9.callback function 
+10.restapi call
+====================================
+Nodejs: 
+1.serverside language 
+2.run time environment for javascript 
+3.underlying architecture of nodejs is written in c++
+=====================================
+Before 2008 you can run javascript only on browsers 
+with the help of nodejs you can run javascript outside the browser
+command to run node :
+cmd:node filename.js 
+=============================================
+serverside language 
+1.Database system 
+2.File system 
+3.networking system 
+4.operating system 
+===================================
+MEAN or MERN or Full stack Developer
+Mangodb 
+Expressjs 
+Angular/React 
+Nodejs 
+=======================================
+Tools: open source
+1vscode  - editor
+2.postman  - API
+3.mongodbcompass - Database - GUI
+======================================
+API - Application programming interface 
+RESTAPI - Representationl state transfer 
+=====================================
+frontend and backend going to interact with the help of API 
+API to interact they are using http protocols 
+===========================================
+Download:
+https://nodejs.org/en
+cmd:node -v 
+version 16 or 18
+===============================
+Event Driven programming 
+//nodejs is also event driven programming 
+//we have event driven because of async in nature 
+//we have Event Emitter concept inside the nodejs to run async code example: file system,Operating system.
+//Event Emitter will emit an object whenever is is available in non-blocking mode 
+//Event emitter also have listener to Received the data.
+==================================
+package.json 
+//configuration file 
+//To start the application 
+//to install third part package.
+To create package.json file 
+1.cmd:npm init (package.json file)
+2.create one file index.js 
+3.add start command in package.json 
+===========================================
+
+
+
+

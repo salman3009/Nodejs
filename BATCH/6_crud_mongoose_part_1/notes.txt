@@ -1,0 +1,93 @@
+Database:
+1.To store the data permanetly inside the hard disk 
+2.Two types of database 
+      1.SQL  - structured query language
+      2.NoSQL - No structure query language 
+      example:
+        select * from employee;
+3.SQL 
+    Relationship of data will be in rows and columns. (excel sheet)
+       example:postgres,Oracle,ms-sql
+4.NOSQL
+   No Relationship.
+   //Anything we can store in the form of document.
+   {
+    firstName:"akash",
+    age:22
+   },
+   {
+    lastName:"suresh",
+    status:true
+   }
+    example:Mongodb,dynamo DB.
+
+5.ODM - Object Data Modelling
+   //It is wrapper it will act like intermediate between nodejs and mongodb.
+   //It will check for proper data 
+   //It will do validation 
+   //It will have methods from mongodb to easy,delete,read and update data.
+   //ODM - mongoose
+
+
+
+Backend Language: 
+Nodejs 
+Framework:
+Expressjs 
+Database: 
+Mongodb 
+ODM - Object Data Modelling 
+
+Benefits:
+Mongodb
+1.Easy to understand and use 
+2.No Relationship
+3.Easy for horizontal scaling.
+
+=================================
+Installing Mongdb:
+1.Install 64bit software from official website 
+2.After installion please install GUI - Compass 
+3.C-->data folder -->db 
+======================================
+Database - collection
+Example:
+Database - Flipkart 
+collections - register,payment,electrical_appliance
+document 
+//A set of records 
+{
+    fullName:"suresh"
+    age:22
+}
+Datatypes:
+1.String
+2.Boolean 
+3.Number 
+4.Date 
+5.Array 
+6.Object 
+================================
+Mongoose:
+//All methods will return promise.
+//create 
+save() 
+//read 
+find()
+//update
+findByIdAndUpdate()
+//delete 
+findByIdAndDelete() 
+=======================================
+Unique Key for all document 
+//Mongodb will create primary key for you _id 
+==============================================
+Mongoose Schema 
+//Design of collections 
+//Will setup what type of data to store inside the database 
+//Similar to class concept.
+==================================
+Install two packages:
+1.npm i mongoose 
+2.npm i express 
+

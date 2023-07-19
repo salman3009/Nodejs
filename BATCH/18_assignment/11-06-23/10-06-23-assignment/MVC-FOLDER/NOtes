@@ -1,0 +1,17 @@
+1. create folder ==> MVC
+2. create npm init
+3. npm install packages => express, mongoose, body-parser, dotenv,cors,...etc
+4. create .env file
+5. create app.js
+            ==> require express
+            ==> app.use bodyparser
+            ==> app.use router
+6. create server.js
+        ====> import app,connect mongodb, app.listen server, dotenv
+        ====> update "start": "node server" in package.json file for npm start
+7. create models folder and then create required schema
+8. create controller folder and add require function for get post,update, delete method
+9. create views folder and create required template files
+10. create middleware folder where we can handle authorization and validations
+12. create Router folder based on the controller
+13. import router in the app js folder and add api in the url , ==> app.use('api/user/', userRouter)

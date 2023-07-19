@@ -1,0 +1,6 @@
+express handlebars 
+//It is template engine to bind dynamic data from express app to html 
+http://localhost:3000/people
+http://localhost:3000
+==========================================================
+Throttling 

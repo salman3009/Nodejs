@@ -1,0 +1,164 @@
+{
+	"variables": [],
+	"info": {
+		"name": "NodejsWeekend",
+		"_postman_id": "83160904-f927-e773-1e7d-e13831587281",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sample-GET",
+			"request": {
+				"url": "http://localhost:3000",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"age\":35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/product",
+			"request": {
+				"url": "http://localhost:3000/product",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/product-POST",
+			"request": {
+				"url": "http://localhost:3000/product",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "      {\n            \"name\": \"hp\",\n            \"price\": 1000,\n            \"availability\": false\n        }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/1-DELETE",
+			"request": {
+				"url": "http://localhost:3000/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Postmethod-mongoose",
+			"request": {
+				"url": "http://localhost:3000",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"suresh\",\n    \"age\": 23,\n    \"salary\":233\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get-mongoose",
+			"request": {
+				"url": "http://localhost:3000",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"age\":35\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete-mongoose",
+			"request": {
+				"url": "http://localhost:3000/647172c707a0394d4119c63a",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"url": "http://localhost:3000/suresh",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"salary\":10\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Postmethod-mongoose-users",
+			"request": {
+				"url": "http://localhost:3000/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"suresh\",\n    \"email\": \"suresh@gmail.com\",\n    \"password\":\"12345\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
